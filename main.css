@@ -10,30 +10,28 @@ body{
 	z-index: 1000;
 }
 ul{
-	outline: 1px solid orange;
+	/*outline: 1px solid orange;*/
 	list-style: none;
 	margin:0;
 	padding: 0;
-	line-height: 24px;
-	background: gray;
+	background: #FFFFFF;
 	overflow: auto;
 }
 .search{
-	outline: 1px solid red;
+	/*outline: 1px solid red;*/
 	list-style: none;
-	margin:0;
-	padding: 0;
-	line-height: 24px;
-	background: gray;
+	margin:6px;
+	background:#EFEFEF;
 	overflow: auto;
 	display: inline-block;
 	float: left;
 	width: 55%;
+	-moz-border-radius: 22px;
+	-webkit-border-radius:22px ;
 }
 li{
 	/*display: inline-block;*/
 	text-align: center;
-	outline: 1px solid orange;
 	float: left;
 }
 a{
@@ -41,46 +39,84 @@ a{
 	/*outline: 1px solid green;*/
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: #B5B5B5;
 }
 
 .iconos{
+
+	float: left;
+	padding: 20px;
+	font-size: 100%;
+	display: block;
+	text-decoration: none;
+	color: #B4B4B4;
+	
+}
+.iconos1{
 	float: left;
 	padding: 20px;
 	font-size: 100%;
 	color: red;
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: #DA4D4D;
 	
 }
 /*selector desendicnete*/
 
 /*imagenes pequeñas*/
 
+.mini{
 
+	/*outline: 1px solid blue;*/
+	margin:.1%;
+	margin-left: 1%;
+	width: 100%;
+	float: left;
+
+}
+.minipictures{
+	/*outline: 1px solid blue;*/
+	margin-top: 6%;
+	margin-left:1%;
+	padding: 0;
+	float: left;
+	display:inline-block;
+	position: relative;
+}
 
 /*selector IMagenes flotantes*/
 
 .pines{
 
 	/*outline: 1px solid blue;*/
-	margin-top: 7%;
+	margin-top: 1%;
 	margin-left:1%;
 	margin-bottom:3%;
 	float: left;
 }
 
 .ima_a{
-	border-radius: 22%;
-	-moz-border-radius: 22px 22px 22px 22px;
-	-webkit-border-radius: 22px 22px 22px 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px ;
+	display: inline-block;
+	position: relative;
 
 }
 p{
 	font-size: 10px;
 	padding-bottom:7%;
 
+
 }
+h4{
+	position: absolute;
+	text-align: center;
+	bottom: 2px;
+	left: 30px;
+	font-size: 18px;
+	color: white;
+}
+
 
 
