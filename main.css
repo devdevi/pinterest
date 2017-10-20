@@ -1,0 +1,86 @@
+body{
+	font-family: sans-serif;
+
+}
+#menufix{
+	position: fixed;
+	width: 100%;
+	margin :0;
+	padding: 0;
+	z-index: 1000;
+}
+ul{
+	outline: 1px solid orange;
+	list-style: none;
+	margin:0;
+	padding: 0;
+	line-height: 24px;
+	background: gray;
+	overflow: auto;
+}
+.search{
+	outline: 1px solid red;
+	list-style: none;
+	margin:0;
+	padding: 0;
+	line-height: 24px;
+	background: gray;
+	overflow: auto;
+	display: inline-block;
+	float: left;
+	width: 55%;
+}
+li{
+	/*display: inline-block;*/
+	text-align: center;
+	outline: 1px solid orange;
+	float: left;
+}
+a{
+	padding: 20px;
+	/*outline: 1px solid green;*/
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.iconos{
+	float: left;
+	padding: 20px;
+	font-size: 100%;
+	color: red;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	
+}
+/*selector desendicnete*/
+
+/*imagenes pequeñas*/
+
+
+
+/*selector IMagenes flotantes*/
+
+.pines{
+
+	/*outline: 1px solid blue;*/
+	margin-top: 7%;
+	margin-left:1%;
+	margin-bottom:3%;
+	float: left;
+}
+
+.ima_a{
+	border-radius: 22%;
+	-moz-border-radius: 22px 22px 22px 22px;
+	-webkit-border-radius: 22px 22px 22px 22px;
+
+}
+p{
+	font-size: 10px;
+	padding-bottom:7%;
+
+}
+
+
